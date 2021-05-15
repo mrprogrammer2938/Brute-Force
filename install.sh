@@ -16,6 +16,7 @@ sudo apt install pip-python3
 pip install --upgrade pip
 pip install requirments.txt
 chmod +x bruteforce
+cd Update && chmod +x update
 sleep 1
 echo "
 Finish installing !
