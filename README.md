@@ -23,6 +23,10 @@ cd Update
 
 ./update
 ```
+#### Run Root!
+```
+sudo su
+```
 
 #### [MIT LICENSE](https://github.com/msprogrammer2938/Brute-Force/blob/master/LICENSE)
 
