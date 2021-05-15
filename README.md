@@ -16,6 +16,14 @@ bash install.sh
 
 ./bruteforce
 ```
+
+##### Update...
+```
+cd Update
+
+./update
+```
+
 #### [MIT LICENSE](https://github.com/msprogrammer2938/Brute-Force/blob/master/LICENSE)
 
 ### [Ms.nope](https://github.com/msprogrammer2938) Account...
