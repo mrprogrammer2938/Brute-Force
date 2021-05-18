@@ -34,6 +34,6 @@ sudo su
 [Instagram](https://instagram.com/programmer2938)
 
 ## Check New tool...
-[Big-Tool](https://msprogrammer2938.github.io/Brute-Force")
+[Big-Tool](https://msprogrammer2938.github.io/Brute-Force)
 
 
