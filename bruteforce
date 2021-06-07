@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This code write by (Ms.nope)
+# This code write by (Mr.nope)
 from socket import *
 import re
 import os
@@ -17,7 +17,7 @@ __________                __                  ___________
  |    |   \ |  | \/  |  /|  | \  ___/  /_____/ |     \(  <_> )  | \/\  \__\  ___/ 
  |______  / |__|  |____/ |__|  \___  >         \___  / \____/|__|    \___  >___  >
         \/                         \/              \/                    \/    \/  """   + color.End + color.red + """
-     [This code write by """ + color.blue + "Ms.nope" + color.red + " ]" + color.End + color.red + """ [https://github.com/msprogrammer2938] """ + color.End)
+     [This code write by """ + color.blue + "Mr.nope" + color.red + " ]" + color.End + color.red + """ [https://github.com/mrprogrammer2938] """ + color.End)
 ip = input("\nEnter ip: ")
 user = input("Enter userlist: ")
 passwd = input("Enter passlist: ")
