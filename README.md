@@ -3,7 +3,7 @@
 This code write by [Mr.nope](https://github.com/mrprogrammer2938)
 
 ## Scr
-[![Brute-force_Scr](https://user-images.githubusercontent.com/78996423/117994212-9f3b7c80-b355-11eb-8b2e-edf11482af9d.jpeg)](https://gtihub.com/mrprogrammer2938/Brute-Force)
+[![Brute-force_Scr](https://user-images.githubusercontent.com/78996423/117994212-9f3b7c80-b355-11eb-8b2e-edf11482af9d.jpeg)](https://github.com/mrprogrammer2938/Brute-Force)
 
 
 **installing**
